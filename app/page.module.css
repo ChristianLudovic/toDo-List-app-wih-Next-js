@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.whiteSpace{
+    width: 120px;
+}
+
+.headerLinks{
+    display: flex;
+    align-items: center;
+    gap: 16.5px;
+}
+
+.mainApp{
+    display: flex;
+
+}
+
+.mainAppRight{
+    padding-left: 12px;
+    height: 100vh;
+    width: calc(100%);
+    
+}
+
+.header{
+    margin-top: 12px;
+    padding-right: 25px;
+}
+
+.mainButtom{
+    display: flex;
+    justify-content: center;
+    margin-top: 38.5px;
+    align-items: start;
+}
+
+

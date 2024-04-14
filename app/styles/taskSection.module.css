@@ -1,0 +1,311 @@
+.addTaskBtn{
+    width: 123px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEE9FD;
+    border: none;
+    color: #6F47EB;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.titleAndSubtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.titleAndSubtitle > h4{
+    font-size: 20px;
+    color: #24292F;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+
+.titleAndSubtitle > p{
+    font-size: 16px;
+    color: #5C5F62;
+    font-weight: 400;
+}
+
+.addTaskIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskSectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 676px;
+    width: 100%;
+}
+
+.taskSection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 728px;
+    padding: 30.72px 26px 51.75px 26px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+
+.task{
+    max-width: 665.34px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.taskLeft{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    width: 100%;
+}
+
+.taskCheckboxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+}
+
+.taskLeftRight{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.taskLeftRight > h4{
+    font-size: 18px;
+    color: #24292F;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+}
+
+.taskTagsAndDate{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.taskDate > span, .taskTag > span{
+    font-size: 14px;
+    color: #5C5F62;
+
+}
+
+.taskDate, .taskTag{
+    display: flex;
+    gap: 7px;
+}
+
+.taskDateIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.taskTagsIcon{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.NoTaskYet{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+}
+
+.noTaskText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.noTaskText>h4, .noTaskText>p{
+    color: #24292F;
+    text-align: center;
+}
+
+.noTaskText>h4{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.noTaskText>p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*add task modal*/
+
+.addTaskCardHeader{
+    display: flex;
+    align-items: center;
+    max-width: 363.94px;
+    width: 100%;
+    height: 33.94px;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E3E3E4;
+}
+
+.addTaskCardHeader > h4{
+    font-size: 18px;
+    color: #24292F;
+}
+
+.addTaskCardInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+
+.taskNameInput, .dueDateInput, .dueHourInput, .taskTags{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.taskNameInput > input, .taskTags > input{
+    width: 360px;
+    height: 38px;
+    border: 1px solid #E3E3E4;
+    outline: none;
+    background-color: transparent;
+    border-radius: 6px;
+    padding-left: 13px;
+    font-size: 14px;
+}
+
+.dueDateInput > input, .dueHourInput > input{
+    width: 173px;
+    height: 38px;
+    border: 1px solid #E3E3E4;
+    outline: none;
+    background-color: transparent;
+    border-radius: 6px;
+    padding-left: 13px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.dueDateInput > input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.dueHourInput > input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.dueDateAndHourInput{
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addTaskCardBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 38px;
+    background-color: #6F47EB;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.addTaskCardBody{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.addTaskCard{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 25px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 0px 2px 35px rgba(111, 71, 235, 0.11);
+    position: absolute;
+
+    /*le positonner au milieu de la page*/
+    top: calc(50% - 200px);
+}
+
+.eidtBtn, .removeBtn{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.eidtBtn > p {
+    width: 90px;
+}
+
+.editIcon, .removeIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.removeAndEditBtnsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.removeAndEditBtns{
+    display: flex;
+    width: 160px;
+    height: 91px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 15.5px 17px 15.5px 21px;
+    box-shadow: 0px 3px 22px rgba(111, 71, 235, 0.14);
+    position: absolute;
+    top: 21.28px;
+    right: 0px;
+    z-index: 10000;
+    background-color: #fff;
+}

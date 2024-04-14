@@ -1,0 +1,187 @@
+.username {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 18px;
+    
+} 
+
+.username > p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 110px;
+    color: #37352F;
+}
+  
+.switchAccount{
+width: 14px;
+height: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nameAndImage{
+display: flex;
+align-items: center;
+gap: 9.24px;
+padding: 3px 15px;
+}
+
+.userAvatar{
+width: 19.53px;
+height: 19.53px;
+background-image: url('../assets/images/avatar.svg');
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.accountEditBtn{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 1px solid #EDEDEC;
+background: #fff;
+}
+
+.navigationBarHeader{
+display: flex;
+align-items: center;
+gap: 6px;
+padding: 6.5px 12px 6.5px 0;
+}
+
+.taskListText{
+display: flex;
+align-items: center;
+gap: 3.8px;
+}
+
+.taskTitleGroup{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.taskListGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 15px;
+}
+
+
+.taskListContent{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.allTask, .completedTask, .uncompletedTask{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.allTask > label, .completedTask > label, .uncompletedTask > label{
+    font-size: 15px;
+    color: #5f5b53;
+    font-weight: 500;
+}
+
+.taskCounter{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 16px;
+height: 16px;
+border-radius: 3px;
+background-color: #EB5757;
+}
+
+.taskCounter span{
+font-size: 10px;
+color: #fff;
+font-weight: 700;
+}
+
+.taskList{
+display: flex;
+align-items: center;
+
+padding: 2px 11px 2px 10px;
+gap: 12px;
+}
+
+.taskListText > p{
+    font-size: 16px;
+    color: #37352F;
+    font-weight: 500;
+}
+
+.shared{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.shared > p{
+    padding-left: 15px;
+    font-size: 14px;
+    color: #999894;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.privateContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.privateItem{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 232px;
+    padding: 3px 0 3px 10px;
+}
+
+.privateItem > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 15px;
+}
+
+.privateItem > p{
+    font-size: 16px;
+    color: #37352F;
+    font-weight: 500;
+}
+
+.navigationBarBody{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.navigationBar{
+    width: 260px;
+    height: 100vh;
+    background-color: #FBFBFA;
+    border: 1px solid #F5F6F5;
+    padding: 0 4px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 11px;
+    position: fixed;
+}
+
